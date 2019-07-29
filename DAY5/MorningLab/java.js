@@ -12,4 +12,18 @@ console.log (10);
 
 
 
-console.log('1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
+console.log('1\n2\n3\n4\n5\n6\n7\n8\n9\n10');
+
+
+
+let result = prompt("Enter your mother name")
+console.log("CARRY YUH SKUNT ", result );
+
+let num = prompt("Enter your number " + result);
+num= Number(num)
+if(isNaN(num))
+{
+    num= 10;
+}
+
+console.log(num + 10);
